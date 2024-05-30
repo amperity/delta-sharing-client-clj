@@ -22,10 +22,10 @@ user=> (def client (dsc/new-client "https://sharing.delta.io/delta-sharing/" "my
 #'user/client
 
 ;; Invoke the method(s) you want using the client
-user=> @(dsc/list-shares client {:max-results 50})
+user=> (dsc/list-shares client {:max-results 50})
 => {:data [{:name "delta_sharing"}]}
 
-user=> @(dsc/list-share-tables client "delta_sharing" {:max-results 2})
+user=> (dsc/list-share-tables client "delta_sharing" {:max-results 2})
 => {:next-page-token "CgE1Eg1kZWx0YV9zaGFyaW5n",
     :data [{:name "COVID_19_NYT"
             :schema "default",
@@ -34,7 +34,7 @@ user=> @(dsc/list-share-tables client "delta_sharing" {:max-results 2})
             :schema "default",
             :share "delta_sharing"}]]}
 
-user=> @(dsc/read-table-data client "delta_sharing" "default" "COVID_19_NYT" {:min-reader-version 1})
+user=> (dsc/read-table-data client "delta_sharing" "default" "COVID_19_NYT" {:min-reader-version 1})
 {:delta-table-version "1710371505697",
  :files [{:expiration-timestamp 1713812921776,
           :id "5ds7z3rjK3qFxy54zRre1GSXiy9fap",
