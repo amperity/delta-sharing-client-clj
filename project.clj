@@ -9,4 +9,4 @@
   :profiles
   {:repl
    {:source-paths ["dev"]
-    :dependencies [[org.clojure/tools.namespace]]}})
+    :dependencies [[org.clojure/tools.namespace "1.5.0"]]}})
