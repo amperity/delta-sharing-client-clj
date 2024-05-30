@@ -49,11 +49,11 @@ jobs:
             - v1-test-{{ checksum "project.clj" }}
             - v1-test-
       - run: 
-        command: lein deps 
+          command: lein deps 
       - run: 
-        command: lein check
+          command: lein check
       - run: 
-        command: lein test 
+          command: lein test 
       - save_cache:
           key: v1-test-{{ checksum "project.clj" }}
           paths:
