@@ -1,5 +1,8 @@
 (defproject com.amperity/delta-sharing-client "MONOLITH-SNAPSHOT"
   :description "Clojure delta-sharing client implementation"
+  :url "https://github.com/amperity/delta-sharing-client-clj"
+  :license {:name "MIT License"
+            :url "https://mit-license.org/"}
 
   :plugins
   [[lein-cloverage "1.2.2"]]
