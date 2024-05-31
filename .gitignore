@@ -1,3 +1,19 @@
+# Development Tooling
+.clj-kondo/.cache
+.cpcache
+.nrepl-*
+.idea
+*.iml
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+.nrepl-port
+.cpcache/
+
+# Build Artifacts
+/target
+/dist
 pom.xml
 pom.xml.asc
 *.jar
@@ -5,10 +21,7 @@ pom.xml.asc
 /lib/
 /classes/
 /target/
+
+# Other
+*.DS_Store
 /checkouts/
-.lein-deps-sum
-.lein-repl-history
-.lein-plugins/
-.lein-failures
-.nrepl-port
-.cpcache/
