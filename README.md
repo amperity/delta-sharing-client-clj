@@ -3,6 +3,8 @@ Amperity Delta Sharing Library
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/amperity/delta-sharing-client-clj/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/amperity/delta-sharing-client-clj/tree/main)
 [![codecov](https://codecov.io/gh/amperity/delta-sharing-client-clj/branch/main/graph/badge.svg)](https://codecov.io/gh/amperity/delta-sharing-client-clj)
+[![Clojars Project](https://img.shields.io/clojars/v/com.amperity/delta-sharing-client-clj.svg)](https://clojars.org/com.amperity/delta-sharing-client-clj)
+[![cljdoc](https://cljdoc.org/badge/com.amperity/delta-sharing-client-clj)](https://cljdoc.org/d/com.amperity/delta-sharing-client-clj/CURRENT)
 
 A native clojure implementation of a delta sharing client. More details about the delta sharing protocol can be found at the [official docs page](https://github.com/delta-io/delta-sharing/blob/main/PROTOCOL.md).
 
