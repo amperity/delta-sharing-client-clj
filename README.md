@@ -16,7 +16,7 @@ The client is constructed an endpoint URL, a bearer token & share credentials ve
 
 ```clojure
 ;; Pull in namespace
-user=> (require '[amperity.delta-sharing.client :as dsc])
+user=> (require '[delta-sharing.client :as dsc])
 nil
 
 ;; Create an instance of the client using the endpoint, token and version
@@ -78,10 +78,10 @@ Here's an example of how to construct a client using the [provided](src/amperity
 
 ```clojure
 ;; Pull in relevant namespaces
-user=> (require '[amperity.delta-sharing.client :as dsc])
+user=> (require '[delta-sharing.client :as dsc])
 nil
 
-user=> (require '[amperity.delta-sharing.client.flow :as f])
+user=> (require '[delta-sharing.client.flow :as f])
 nil
 
 ;; Construct the client leveraging the optional parameters to inject a custom flow handler
