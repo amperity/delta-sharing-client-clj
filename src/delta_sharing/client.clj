@@ -134,7 +134,7 @@
    Supported delta sharing options:
    [`:predicate-hints`,`:json-predicate-hints`,`:limit-hint`,`:version`,`:timestamp`,`:starting-version`,`:ending-version`]"
   ([client share schema table]
-   (read-table-data client share schema table))
+   (read-table-data client share schema table {}))
   ([client share schema table opts]
    (proto/read-table-data client share schema table opts)))
 
@@ -167,7 +167,7 @@
    Delta sharing parameters: 
    [`:starting-timestamp`,`:ending-timestamp`,`:starting-version`,`:ending-version`,`:include-historical-metadata?`]"
   ([client share schema table]
-   (read-change-data-feed client share schema table))
+   (read-change-data-feed client share schema table {}))
   ([client share schema table opts]
    (proto/read-change-data-feed client share schema table opts)))
 
