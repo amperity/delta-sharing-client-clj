@@ -1,4 +1,4 @@
-(defproject com.amperity/delta-sharing-client-clj "0.1.0"
+(defproject com.amperity/delta-sharing-client-clj "0.1.1"
   :description "Clojure delta-sharing client implementation"
   :url "https://github.com/amperity/delta-sharing-client-clj"
   :license {:name "MIT License"
